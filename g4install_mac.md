@@ -1,8 +1,8 @@
-# Install Geant4 on Mac M3
-## Tested environment
+# Install Geant4 on Mac M3 
+## Tested environment (on 2025.6.10)
 - Macbook Air M3, MacOS Sequoia 15.5
 - Geant4 ver.11.3.2
-- CMake Root Qt@5 on Homebrew (latest on 2025.6.10)
+- CMake (4.0.2), Root (6.36.00), Qt@5 (5.15.16_2) on Homebrew (latest on 2025.6.10)
 
 ## Reference 
 - https://qiita.com/niikura/items/b8de01cc94f4c4ddb5c4
@@ -59,6 +59,7 @@
     % cd B1_build
     % cmake ../B1
     % make
-    % ./
+    % ./exampleB1
+    ...
     ```
 
