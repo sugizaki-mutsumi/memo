@@ -38,7 +38,7 @@
     % make install
     ```
 
-6. Setup environment variable (create setup script file like geant4seup.sh)
+6. Setup environment variables (using a setup script file)
     ```
     ### QT
     export PKG_CONFIG_PATH="/opt/homebrew/opt/qt@5/lib/pkgconfig"
