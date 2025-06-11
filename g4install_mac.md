@@ -27,7 +27,7 @@
     % tar xvf geant4-v11.3.2.tar.bz2
     % mkdir build
     % cd build
-    % cmake -DCMAKE_INSTALL_PREFIX=~/geant4/v11.3.0/install \
+    % cmake -DCMAKE_INSTALL_PREFIX=~/geant4/v11.3.2/install \
      -DCMAKE_PREFIX_PATH=$(brew --prefix qt@5) \
      -DGEANT4_INSTALL_DATA=ON \
      -DGEANT4_USE_QT=ON \
